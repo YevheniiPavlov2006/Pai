@@ -16,13 +16,11 @@ window.onclick = function(event) {
 function openText() {
   document.getElementById('learn__more__text').style.display = 'flex'
   document.getElementById('predict__open__btn').style.opacity = '0'
-  document.getElementById('predict__img').style.marginTop = '-100px'
 }
 
 function closeText() {
   document.getElementById('learn__more__text').style.display = 'none'
   document.getElementById('predict__open__btn').style.opacity = '1'
-  document.getElementById('predict__img').style.marginTop = '0px'
 }
 
 const openBtn = document.getElementById('predict__open__btn')
