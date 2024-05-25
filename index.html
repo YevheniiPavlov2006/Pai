@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PAI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="logo">
+        <img class="logo" src="img/IMAGE (24).png" alt="">
+      </div>
+      <div class="header__menu">
+        <div>Product</div>
+        <div>Customers</div>
+        <div>About</div>
+        <div>Blog</div>
+        <button class="login__button" id="popupOpen" onclick="openPopup()">Login</button>
+      </div>
+    </header>
+    <div class="popur" id="popup">
+      <div class="input__container">
+        <div class="input__container__text">Enter your email</div>
+        <input class="window__popur__input" type="text">
+      </div>
+      <div class="input__container">
+        <div class="input__container__text">Enter password</div>
+        <input class="window__popur__input" type="text">
+      </div>
+      <button class="close__button" onclick="closePopup()" id="popupClose">Ok</button>
+    </div>
+    <div class="main__screen">
+      <div class="main__screen__container">
+        <div class="main__screen__title">
+          <div class="main__screen__titile">Generate unlimited, winning audiences.</div>
+          <div class="main__screen__title title__blue">No targeting gaps.</div>
+        </div>
+        <div class="main__screen__subtitle">Use machine learning with first-party data to generate an endless amount of audiences for your marketing & advertising channels. No effort or delay & complementary to Customer Data Platforms.</div>
+      </div>
+    </div>
+    <div class="black__promo__screen">
+      <div class="black__promo__screen__title">Chosen by progressive marketers.</div>
+      <div class="black__promo__screen__img__container">
+        <img src="img/IMAGE (25).png" alt="">
+        <img src="img/IMAGE (26).png" alt="">
+        <img src="img/IMAGE (27).png" alt="">
+        <img src="img/IMAGE (28).png" alt="">
+      </div>
+      <div class="black__promo__screen__subtitle">Read success stories</div>
+    </div>
+    <div class="predict__screen">
+      <div class="predict__screen__container">
+        <div class="predict__container__text">
+          <div class="predict__text__title title">Predict every customer’s future.</div>
+          <div class="predict__text__subtitle subtitle">Accurately predict short and long-term customer outcomes and take action with forward-looking data.</div>
+          <div class="learn__more__text subtitle" id="learn__more__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus alias illo impedit mollitia! Cumque est unde minus excepturi similique. Quis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab obcaecati repudiandae tempore, voluptatum aliquam aspernatur, molestias temporibus nisi molestiae ea placeat commodi! Modi possimus error accusantium eligendi nulla quidem numquam id nesciunt sequi pariatur quaerat dicta tempore soluta esse inventore praesentium recusandae, molestias ea sapiente excepturi aliquam. Architecto, repellendus reiciendis rem dignissimos culpa quos dolores nulla minus soluta ratione eum.
+            <button class="learn__text__close__btn button" id="predict__close__btn" onclick="closeText()">Learn less</button>
+          </div>
+          <button class="predict__text__button button" id="predict__open__btn" onclick="openText()">Learn more</button>
+        </div>
+        <div class="predict__container__img">
+          <img class="screen__img" id="predict__img" src="img/Frame (11).png" alt="">
+        </div>
+      </div>
+      <div class="determine__screen">
+        <div class="determine__screen__container">
+          <div class="determine__text__container">
+            <div class="determine__title title">Determine how predictive audiences get built.</div>
+            <div class="derermine__subtitle subtitle">Use a combination of predictions to build your predictive audiences most suited to the task at hand; acquiring high-value customers or driving repeat customer conversions.</div>
+            <div class="determine__learn__more__text subtitle" id="determine__learn__more__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptas quisquam, eaque, laborum nesciunt deleniti quibusdam non iusto ad quas ea labore dolorum quaerat. Atque impedit molestiae unde officiis autem reprehenderit a pariatur, ullam praesentium in vel voluptas veritatis, cumque distinctio commodi quo quam aperiam iste quae quisquam! Velit adipisci possimus aut dolores beatae qui fugit animi repellat nesciunt rem, sequi reprehenderit molestias at omnis veniam? Fugiat iure provident impedit illo. Tempora eveniet illum ratione deleniti qui rem eius! Amet!
+              <button class="determine__learn__less__btn button" id="determine__learn__less__btn" onclick="determineClose()">Learn less</button>
+            </div>
+            <button class="determine__button button" onclick="determineOpen()" id="determine__button">Learn more</button>
+          </div>
+          <div class="determine__img">
+            <img class="screen__img" src="img/Frame (12).png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="activate__screen">
+        <div class="activate__screen__container">
+          <div class="activate__text__container">
+            <div class="activate__title title">Activate your predictive audiences anywhere.</div>
+            <div class="activate__subtitle subtitle">Sync to any marketing channel for targeting, or run multi-cell holdout experiments to prove lift.</div>
+            <div class="activate__learn__more__text" id="activate__learn__more__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quo obcaecati molestiae dolorem porro saepe delectus esse minima, officia cum necessitatibus facilis eligendi suscipit quam. Quam cupiditate, debitis quae ullam labore repudiandae nostrum repellat ipsum reiciendis nemo perferendis quaerat consequatur consequuntur alias aut iusto quisquam. Praesentium dolores consequatur rerum itaque officiis optio sequi harum sit veritatis hic dolore culpa, explicabo deleniti minima dolorum porro delectus illum nulla, sed eos voluptatibus iure. Molestiae officiis sequi sit odit, assumenda est voluptate quibusdam?
+              <button class="activate__learn__more__btn" id="activate__learn__more__btn" onclick="activateClose()">Learn less</button>
+            </div>
+            <button class="activate__button button" id="activate__button" onclick="activateOpen()">Learn more</button>
+          </div>
+          <div class="activate__img">
+            <img class="screen__img" src="img/Frame (13).png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="advantages">
+        <div class="advantages__title">
+          <div class="advantages__title">Volume, uplift and efficiency.</div>
+          <div class="advantages__title">No trade-offs.</div>
+        </div>
+        <div class="advantages__img"><img class="advantages__img" src="img/Frame (14).png" alt=""></div>
+        <div class="advantages__cards">
+          <div class="card">
+            <div class="card__color__line color1"></div>
+            <div class="card__logo">
+              <img src="img/IMAGE (29).png" alt="">
+              <div class="card__logo__text">Volume</div>
+            </div>
+            <div class="card__text">Always-on, predictive acquisition and retention. Acquire new and repeat customers across any ad platform, at scale.</div>
+            <div class="card__subtitle">View customer stories</div>
+          </div>
+          <div class="card">
+            <div class="card__color__line color2"></div>
+            <div class="card__logo">
+              <img src="img/IMAGE (30).png" alt="">
+              <div class="card__logo__text">Efficiency</div>
+            </div>
+            <div class="card__text">Predictive Audiences that ensure you invest the optimal amount based on every customer’s predicted conversion and customer lifetime value. No waste.</div>
+            <div class="card__subtitle">View customer stories</div>
+          </div>
+          <div class="card">
+            <div class="card__color__line color3"></div>
+            <div class="card__logo">
+              <img src="img/IMAGE (31).png" alt="">
+              <div class="card__logo__text">Uplift</div>
+            </div>
+            <div class="card__text">Prove incrementality using multi-cell lift tests, with holdouts. This is real performance.</div>
+            <div class="card__subtitle">View customer stories</div>
+          </div>
+        </div>
+      </div>
+      <div class="fitback__screen">
+        <div class="fitback__title">treatwell</div>
+        <div class="fitback__text">
+          <div class="fitback__text__l">"</div>
+          <div class="fitback__text__text">This magical product actually works! P.ai has radically changed the way we build our audiences at Treatwell. Increasing new customer sales by<span>6X</span></div>
+        </div>
+        <div class="fitback__user">
+          <div class="fitback__user__name">Albert Abello</div>
+          <div class="fitback__user__directir">Director of Growth, Treatwell</div>
+        </div>
+      </div>
+      <div class="book__screen">
+        <div class="book__screen__title">We’d love to give you a demo.</div>
+        <div class="book__screen__button">Book a demo</div>
+      </div>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="logo">
+            <img class="logo" src="img/IMAGE (24).png" alt="">
+          </div>
+          <div class="footer__block">
+            <div class="footer__block__item">
+              <div class="footer__block__title">Product</div>
+              <div class="footer__block__components">
+                <div class="footer__block__components__item">Overview</div>
+                <div class="footer__block__components__item">Customers</div>
+              </div>
+            </div>
+            <div class="footer__block__item">
+              <div class="footer__block__title">Company</div>
+              <div class="footer__block__components">
+                <div class="footer__block__components__item">About Us</div>
+                <div class="footer__block__components__item">Support</div>
+                <div class="footer__block__components__item">Contact</div>
+              </div>
+            </div>
+            <div class="footer__block__item">
+              <div class="footer__block__title">Social</div>
+              <div class="footer__block__components">
+                <div class="footer__block__components__item">Blog</div>
+                <div class="footer__block__components__item">Twitter</div>
+                <div class="footer__block__components__item">LinkedIn</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <footer class="footer__text">
+        <div>Programmai Ltd. © 2022. All Rights Reserved.</div>
+        <div class="footer__right">
+          <div class="footer__right__item">Privacy Policy</div>
+          <div class="footer__right__item">Data Processing Agreement</div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
