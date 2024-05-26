@@ -379,7 +379,11 @@ body{
   display: flex;
   margin-left: -70px;
   gap: 30px;
+}
 
+.button{
+  font-style: oblique;
+  color: #39AAFF;
 }
 
 .fitback__text__text{
